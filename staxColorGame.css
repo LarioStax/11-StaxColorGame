@@ -1,0 +1,93 @@
+body {
+	background-color: #0f000e;
+	margin: 0;
+	font-family: "Yatra One";
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	margin: 0;
+	background-color: #8f8f00;
+	padding: 10px 0;
+	line-height: 1.0;
+	transition: background, 0.6s;
+	font-weight: normal;
+	text-shadow: 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+#color {
+	font-size: 150%;
+}
+
+#colorProcent {
+	font-size: 50%;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.r {
+	color: red;
+}
+
+.g {
+	color: green;
+}
+
+.b {
+	color: blue;
+}
+
+#menuBar {
+	padding-left: 90px;
+	text-align: center;
+	/*background-color: white;*/
+	background-color: #0f000e;
+	height: 40px;
+}
+
+
+button {
+	background: none;
+	border: none;
+	height: 100%;
+	transition: all 0.4s;
+	font-family: "Yatra One";
+	letter-spacing: 1px;
+	font-size: 1em;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+	color: white;
+}
+
+
+#message {
+	width: 15%;
+	display: inline-block;
+	font-size: 1.3em;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+/*	text-transform: uppercase;*/
+}
+
+
+
+#container {
+	width: 700px;
+	margin: 10px auto;
+}
+
+.box {
+	width: 30%;
+	margin: 1.666666%;
+	padding-top: 30%;
+	background-color: purple;
+	float: left;
+	border-radius: 40%;
+	transition: background, 0.6s;
+
+}
+
+.selected {
+	color: white;
+}
